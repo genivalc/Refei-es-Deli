@@ -40,7 +40,7 @@ class MainDrawer extends StatelessWidget {
           ),
           _createItem(
               Icons.restaurant,
-              "Regeições",
+              "Refeições",
               () => Navigator.of(context).pushReplacementNamed(
                   AppRoutes.HOME)), //remover a ultima e adicionar a atual
           _createItem(

@@ -1,16 +1,90 @@
-# refeicao
+<h4 align="center"> 
+	🍲🍝🥘🥗🍛🍣 Meal  🍱🌮🍕🍔🍟🥙
+</h4>
 
-A new Flutter project.
+## 💻 Sobre o projeto
 
-## Getting Started
+💰Meal - E uma maneira fácil e simples de fazer suas refeições.
 
-This project is a starting point for a Flutter application.
+### Layout 
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<img alt="ExpensesTela1" title="#ExpensesTela1" src="./github-assets/tela1.jpeg" width="200px">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img alt="ExpensesTela2" title="#ExpensesTela2" src="./github-assets/tela2.jpeg" width="200px">
+
+<img alt="ExpensesTela3" title="#ExpensesTela3" src="./github-assets/tela3.jpeg" width="200px">
+
+<img alt="ExpensesTela4" title="#ExpensesTela4" src="./github-assets/tela4.jpeg" width="200px">
+
+<img alt="ExpensesTela5" title="#ExpensesTela5" src="./github-assets/tela5.jpeg" width="200px">
+
+<img alt="ExpensesTela6" title="#ExpensesTela6" src="./github-assets/tela6.jpeg" width="200px">
+
+
+
+</p>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Dart][dart]
+- [Flutter][flutter]
+
+### 🎲Pré-requisitos : 
+
+## Instalação:
+
+ * Windows: https://flutter.dev/docs/get-started/install/windows
+ * macOS: https://flutter.dev/docs/get-started/install/macos
+ * Linux: https://flutter.dev/docs/get-started/install/linux
+
+### Android Studio:
+
+ * Versão: 3.0+
+ * Plugins: Flutter (automaticamente instala o plugin do Dart)
+ * Mais informações: https://flutter.dev/docs/get-started/editor?tab=androidstudio
+
+### VS Code:
+
+ * Versão: última estável
+ * Extensões: Flutter (automaticamente instala a extensão do Dart)
+ * Mais informações: https://flutter.dev/docs/get-started/editor?tab=vscode
+
+### 🧭 Rodando a aplição 
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/genivalc/Refei-es-Deli.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd -Despesas
+
+ Para executar o projeto basta pressionar F5 no Vs code , ou se quiser executar o projeto na linha de comando, abra um terminal de comandos e posicione-se na pasta raiz do projeto que deseja executar e digite o comando :
+ flutter run -d all
+
+Antes de executar é bom verificar se você tem um dispositivo pronto para ser usado.
+
+```
+
+## 😯 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](license) para saber mais.
+
+Feito por Genival Neto  👋🏽 [Entre em contato!](https://www.linkedin.com/in/genival-candeia-neto/)
+
+[vscode]: https://code.visualstudio.com/
+[dart]: https://dart.dev/
+[flutter]: https://flutter.dev/
+
