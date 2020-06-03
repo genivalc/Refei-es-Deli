@@ -11,17 +11,17 @@
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   
 
-<img alt="ExpensesTela1" title="#ExpensesTela1" src="./github-assets/tela1.jpeg" width="200px">
+<img alt="ExpensesTela1" title="#ExpensesTela1" src="./assets-github/tela1.jpeg" width="200px">
 
-<img alt="ExpensesTela2" title="#ExpensesTela2" src="./github-assets/tela2.jpeg" width="200px">
+<img alt="ExpensesTela2" title="#ExpensesTela2" src="./assets-github/tela2.jpeg" width="200px">
 
-<img alt="ExpensesTela3" title="#ExpensesTela3" src="./github-assets/tela3.jpeg" width="200px">
+<img alt="ExpensesTela3" title="#ExpensesTela3" src="./assets-github/tela3.jpeg" width="200px">
 
-<img alt="ExpensesTela4" title="#ExpensesTela4" src="./github-assets/tela4.jpeg" width="200px">
+<img alt="ExpensesTela4" title="#ExpensesTela4" src="./assets-github/tela4.jpeg" width="200px">
 
-<img alt="ExpensesTela5" title="#ExpensesTela5" src="./github-assets/tela5.jpeg" width="200px">
+<img alt="ExpensesTela5" title="#ExpensesTela5" src="./assets-github/tela5.jpeg" width="200px">
 
-<img alt="ExpensesTela6" title="#ExpensesTela6" src="./github-assets/tela6.jpeg" width="200px">
+<img alt="ExpensesTela6" title="#ExpensesTela6" src="./assets-github/tela6.jpeg" width="200px">
 
 
 
