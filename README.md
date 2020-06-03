@@ -4,7 +4,7 @@
 
 ## 💻 Sobre o projeto
 
-💰Meal - E uma maneira fácil e simples de fazer suas refeições.
+🍱🌮🍕🍔🍟🥙🍲🍝🥘🥗🍛🍣Meal - E uma maneira fácil e simples de fazer suas refeições.
 
 ### Layout 
 
