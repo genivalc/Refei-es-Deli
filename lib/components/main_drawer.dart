@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:refeicao/ultis/app_routes.dart';
 
-import '../ultis/app_routes.dart';
 
 class MainDrawer extends StatelessWidget {
   Widget _createItem(IconData icon, String label, Function onTap) {
@@ -13,6 +13,17 @@ class MainDrawer extends StatelessWidget {
               fontWeight: FontWeight.w700)),
       onTap: onTap,
     );
+  }
+
+
+  bool themeSwitch = false;
+
+  dynamic themeColors() {
+    if (themeSwitch) {
+      return Colors.grey[850];
+    } else {
+      return Colors.greenAccent;
+    }
   }
 
   @override
@@ -38,6 +49,11 @@ class MainDrawer extends StatelessWidget {
           SizedBox(
             height: 15,
           ),
+
+
+  
+
+
           _createItem(
               Icons.restaurant,
               "Refeições",

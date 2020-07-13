@@ -26,7 +26,7 @@ class MealDetailScreen extends StatelessWidget {
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: Colors.white,
-        border: Border.all(color: Colors.grey),
+        border: Border.all(color: Colors.black87),
         borderRadius: BorderRadius.circular(10),
       ),
       child: child,
@@ -79,6 +79,7 @@ class MealDetailScreen extends StatelessWidget {
                     children: <Widget>[
                       ListTile(
                         leading: CircleAvatar(
+                          backgroundColor: Colors.black,
                           child: Text("${index + 1}"),
                         ),
                         title: Text(meal.steps[index]),
@@ -93,9 +94,10 @@ class MealDetailScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+          backgroundColor: Colors.black87,
           child: Icon(
             isFavorite(meal) ? Icons.star : Icons.star_border,
-            color: Colors.red,
+            color: Theme.of(context).accentColor,
           ),
           onPressed: () {
             onToggleFavorite(meal);

@@ -41,12 +41,14 @@ class _TabsScreenState extends State<TabsScreen> {
       appBar: AppBar(
         title: Text(_screens[_selectedScreenIndex]["title"]),
       ),
+
       //menu
       drawer: MainDrawer(),
+
       body: _screens[_selectedScreenIndex]["screen"],
       bottomNavigationBar: BottomNavigationBar(
           onTap: _selectScreen,
-          backgroundColor: Theme.of(context).primaryColor,
+          backgroundColor: Colors.black87,
           unselectedItemColor: Colors.white,
           selectedItemColor: Theme.of(context).accentColor,
           currentIndex: _selectedScreenIndex,

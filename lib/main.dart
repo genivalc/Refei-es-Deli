@@ -54,13 +54,13 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: 'Vamos conzinhar?',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+       primarySwatch: Colors.yellow,
         accentColor: Colors.amber,
         fontFamily: 'Raleway',
-        canvasColor: Color.fromRGBO(255, 254, 229, 1),
+        canvasColor: Colors.white,
         textTheme: ThemeData.light().textTheme.copyWith(
               headline6: TextStyle(
                 fontFamily: "RobotoCondensed",
