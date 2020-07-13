@@ -11,7 +11,7 @@
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   
 
-<img alt="ExpensesTela1" title="#git" src="./assets-github/tela1.gif" width="800px">
+<img alt="ExpensesTela1" title="#git" src="./assets-github/tela1.gif" width="600px">
 
 
 </p>
