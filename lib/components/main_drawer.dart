@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:refeicao/ultis/app_routes.dart';
 
-
 class MainDrawer extends StatelessWidget {
   Widget _createItem(IconData icon, String label, Function onTap) {
     return ListTile(
@@ -14,7 +13,6 @@ class MainDrawer extends StatelessWidget {
       onTap: onTap,
     );
   }
-
 
   bool themeSwitch = false;
 
@@ -35,24 +33,20 @@ class MainDrawer extends StatelessWidget {
             height: 120,
             width: double.infinity,
             padding: EdgeInsets.all(20),
-            color: Theme.of(context).accentColor,
+            color: Colors.black87,
             alignment: Alignment.bottomCenter,
             child: Text(
               "Vamos cozinhar?",
               style: TextStyle(
                 fontWeight: FontWeight.w900,
                 fontSize: 30,
-                color: Theme.of(context).primaryColor,
+                color: Colors.white,
               ),
             ),
           ),
           SizedBox(
             height: 15,
           ),
-
-
-  
-
 
           _createItem(
               Icons.restaurant,

@@ -42,6 +42,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Configurações"),
+        backgroundColor: Colors.black87,
       ),
       drawer: MainDrawer(),
       body: Column(

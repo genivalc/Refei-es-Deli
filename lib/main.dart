@@ -55,19 +55,14 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      title: 'Vamos conzinhar?',
-      theme: ThemeData(
-       primarySwatch: Colors.yellow,
-        accentColor: Colors.amber,
+      title: 'Vamos conzinhar?' ,
+       theme: ThemeData(
+
+        accentColor: Colors.white,
         fontFamily: 'Raleway',
-        canvasColor: Colors.white,
-        textTheme: ThemeData.light().textTheme.copyWith(
-              headline6: TextStyle(
-                fontFamily: "RobotoCondensed",
-                fontSize: 20,
-              ),
-            ),
+       // canvasColor: Colors.grey,
       ),
+   
 
       /// initialRoute: , definir uma rota inicial
       routes: {

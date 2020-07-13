@@ -42,7 +42,7 @@ const DUMMY_CATEGORIES = const [
   ),
   const Category(
     id: 'c8',
-    title: 'Asiática',
+    title: 'Indiana ',
    imagem: 'https://http2.mlstatic.com/bandeira-india-cetim-alto-brilho-150m-x-90cm-pronta-entrega-D_NQ_NP_879918-MLB40410251658_012020-F.jpg',
   ),
   const Category(
@@ -65,7 +65,7 @@ const DUMMY_MEALS = const [
     cost: Cost.Cheap,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://juliafleck.com.br/wp-content/uploads/2017/04/Capa-J%C3%BAlia-Blog-1-3-400x242.png',
     duration: 20,
     ingredients: [
       '4 Tomates',
@@ -96,7 +96,7 @@ const DUMMY_MEALS = const [
     cost: Cost.Cheap,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://www.dw.com/image/40993283_304.jpg',
     duration: 10,
     ingredients: [
       '1 fatia de pão branco',
@@ -122,7 +122,7 @@ const DUMMY_MEALS = const [
     cost: Cost.Fair,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+        'https://cdn.panelinha.com.br/receita/1562096945621-receita.jpg',
     duration: 45,
     ingredients: [
       '300g de gado bovino',

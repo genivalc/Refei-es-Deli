@@ -27,7 +27,7 @@ class CategoryItem extends StatelessWidget {
         padding: EdgeInsets.all(15),
         child: Text(
           category.title,
-          style:  TextStyle(fontWeight: FontWeight.bold, color:Colors.white),
+          style:  TextStyle(fontWeight: FontWeight.bold,fontSize: 25, color:Colors.white),
 
         ),
         decoration: BoxDecoration(

@@ -39,7 +39,9 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_screens[_selectedScreenIndex]["title"]),
+        backgroundColor: Colors.black87,
+        title: Text(_screens[_selectedScreenIndex]["title"] )
+        ,
       ),
 
       //menu
@@ -50,17 +52,17 @@ class _TabsScreenState extends State<TabsScreen> {
           onTap: _selectScreen,
           backgroundColor: Colors.black87,
           unselectedItemColor: Colors.white,
-          selectedItemColor: Theme.of(context).accentColor,
+          selectedItemColor: Colors.amber,//accentColor,
           currentIndex: _selectedScreenIndex,
           type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(
-              backgroundColor: Theme.of(context).primaryColor,
+              backgroundColor: Colors.amber,
               icon: Icon(Icons.category),
               title: Text("Categorias"),
             ),
             BottomNavigationBarItem(
-              backgroundColor: Theme.of(context).primaryColor,
+              backgroundColor:  Colors.amber,
               icon: Icon(Icons.star),
               title: Text("Favoritos"),
             ),

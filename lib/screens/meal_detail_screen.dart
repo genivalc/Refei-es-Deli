@@ -39,6 +39,7 @@ class MealDetailScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black87,
         title: Text(meal.title),
       ),
       body: SingleChildScrollView(
@@ -65,7 +66,7 @@ class MealDetailScreen extends StatelessWidget {
                       ),
                       child: Text(meal.ingredients[index]),
                     ),
-                    color: Theme.of(context).accentColor,
+                    color: Colors.amber,
                   );
                 },
               ),
@@ -97,7 +98,7 @@ class MealDetailScreen extends StatelessWidget {
           backgroundColor: Colors.black87,
           child: Icon(
             isFavorite(meal) ? Icons.star : Icons.star_border,
-            color: Theme.of(context).accentColor,
+            color: Colors.amber,
           ),
           onPressed: () {
             onToggleFavorite(meal);
